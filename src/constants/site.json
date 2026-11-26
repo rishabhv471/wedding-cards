@@ -1,0 +1,47 @@
+{
+  "weddingDate": "2026-12-12T19:00:00+05:30",
+  "languageStorageKey": "site-language",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "socialLinks": {
+    "venueMap": "https://maps.app.goo.gl/D2arvhRnbvsJRciF6"
+  },
+  "couple": {
+    "names": [
+      "Prachi",
+      "Deepak"
+    ]
+  },
+  "bootSplash": {
+    "daysToGo": {
+      "en": "Days to go",
+      "hi": "दिन बाकी"
+    }
+  },
+  "brandAssets": {
+    "flowersCorner": "/images/decor/flowers-corner.png",
+    "flowersMixed": "/images/decor/flowers-mixed.png"
+  },
+  "metadata": {
+    "en": {
+      "title": "Prachi & Deepak | 12 December 2026",
+      "description": "Join us for our wedding at Sangam Palace, Najibabad."
+    },
+    "hi": {
+      "title": "प्राची और दीपक | 12 दिसंबर 2026",
+      "description": "संगम पैलेस, नजीबाबाद में विवाह समारोह में आपका स्वागत है।"
+    }
+  },
+  "languageSwitcher": {
+    "label": {
+      "en": "हिंदी",
+      "hi": "English"
+    },
+    "ariaLabel": {
+      "en": "हिंदी में देखें",
+      "hi": "View in English"
+    }
+  }
+}

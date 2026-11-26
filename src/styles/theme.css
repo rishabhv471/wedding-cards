@@ -1,0 +1,39 @@
+:root {
+    color-scheme: light;
+    --scrollbar-track: #f5eee0;
+    --scrollbar-thumb-start: #c8aa78;
+    --scrollbar-thumb-end: #9b6b4c;
+    --scrollbar-thumb-hover-start: #345e4f;
+    --scrollbar-thumb-hover-end: #1d3d32;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    html {
+        scrollbar-color: var(--scrollbar-thumb-start) var(--scrollbar-track);
+        scrollbar-width: thin;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 3.5rem;
+    border: 3px solid var(--scrollbar-track);
+    border-radius: 999px;
+    background: linear-gradient(180deg, var(--scrollbar-thumb-start) 0%, var(--scrollbar-thumb-end) 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, var(--scrollbar-thumb-hover-start) 0%, var(--scrollbar-thumb-hover-end) 100%);
+}
+
+::-webkit-scrollbar-corner {
+    background: var(--scrollbar-track);
+}

@@ -1,0 +1,28 @@
+{
+  "copy": {
+    "en": {
+      "label": "sunrises until we meet",
+      "date": "12 December · Najibabad",
+      "ariaLabel": "Time remaining until the wedding",
+      "units": {
+        "months": "Months",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "seconds": "Seconds"
+      }
+    },
+    "hi": {
+      "label": "अब बस इतने दिन",
+      "date": "12 दिसंबर · नजीबाबाद",
+      "ariaLabel": "शादी तक बचा समय",
+      "units": {
+        "months": "महीने",
+        "days": "दिन",
+        "hours": "घंटे",
+        "minutes": "मिनट",
+        "seconds": "सेकंड"
+      }
+    }
+  }
+}

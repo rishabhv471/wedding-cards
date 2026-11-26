@@ -1,0 +1,48 @@
+{
+  "monogramAlt": "Prachi and Deepak monogram",
+  "blessings": [
+    "श्री गणेशाय नमः"
+  ],
+  "copy": {
+    "en": {
+      "kicker": "The wedding of",
+      "destinationKicker": "Celebrating in",
+      "city": "Najibabad",
+      "date": "12 December 2026",
+      "scroll": "Scroll"
+    },
+    "hi": {
+      "kicker": "मंगल परिणय",
+      "destinationKicker": "विवाह स्थल",
+      "city": "नजीबाबाद",
+      "date": "12 दिसंबर 2026",
+      "scroll": "स्क्रॉल करें"
+    }
+  },
+  "couple": {
+    "groom": {
+      "name": "Prachi",
+      "parents": "D/O Smt. Sangeeta & Sh. Suresh Kumar",
+      "illuminatedLetters": [
+        0,
+        1,
+        2
+      ]
+    },
+    "bride": {
+      "name": "Deepak",
+      "parents": "S/O Smt. Anita & Sh. Surendra Kumar",
+      "illuminatedLetters": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "assets": {
+    "bouquetBottomLeft": "/images/hero/bouquet-bottom-left.png",
+    "bouquetTopRight": "/images/hero/bouquet-top-right.png",
+    "monogram": "/images/hero/monogram.svg",
+    "evilEye": "/images/decor/evil-eye.png"
+  }
+}

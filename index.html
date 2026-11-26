@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <title>Prachi &amp; Deepak | 12 December 2026</title>
+  <meta name="description" content="Wedding invitation for Prachi and Deepak, Sangam Palace, Najibabad, 12 December 2026." />
+  <meta property="og:title" content="Prachi &amp; Deepak | 12 December 2026" />
+  <style>
+    :root {
+      color-scheme: light;
+      --boot-bg: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      background: var(--boot-bg);
+    }
+
+    #boot-splash {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: var(--boot-bg);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 220ms ease-out;
+    }
+
+    #boot-splash.boot-splash--visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    #boot-splash.boot-splash--exit {
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="boot-splash" aria-hidden="true"></div>
+  <div id="root"></div>
+  <script>
+    (function () {
+      try {
+        var savedLanguage = window.localStorage.getItem("site-language");
+        var urlLanguage = new URLSearchParams(window.location.search).get(
+          "lang",
+        );
+        var language =
+          urlLanguage === "hi" || savedLanguage === "hi" ? "hi" : "en";
+        document.documentElement.lang = language;
+        document.documentElement.dataset.uiLang = language;
+      } catch (error) {
+        document.documentElement.lang = "en";
+        document.documentElement.dataset.uiLang = "en";
+      }
+    })();
+
+    var isOpsRoute = window.location.pathname.indexOf("/ops") === 0;
+    if (isOpsRoute) {
+      var opsBootSplash = document.getElementById("boot-splash");
+      if (opsBootSplash) opsBootSplash.remove();
+    } else {
+      window.__bootSplashRevealTimer = window.setTimeout(function () {
+        var splash = document.getElementById("boot-splash");
+        if (splash) splash.classList.add("boot-splash--visible");
+      }, 180);
+    }
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
